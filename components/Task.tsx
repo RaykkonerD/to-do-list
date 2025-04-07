@@ -2,13 +2,19 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-export default function Task({ index, content, handleEditTask, handleDeleteTask }){
+interface IProps {
+    index: number, 
+    content: string, 
+    handleEditTask: (index: number) => void, 
+    handleDeleteTask: (index: number) => void
+}
+
+export default function Task({ index, content, handleEditTask, handleDeleteTask }: IProps){
   return (
     <View style={styles.container}>
       <BouncyCheckbox
         size={25}
         fillColor="black"
-        unfillColor="none"
         text={content}
         style={styles.checkbox}
         innerIconStyle={{ borderWidth: 2 }}
@@ -54,7 +60,7 @@ const styles = StyleSheet.create({
   deleteButtonText: {
     color: 'white',
     fontSize: 12,
-    fontWeight: 650,
+    fontWeight: 600,
     textAlign: 'center'
   }
 });

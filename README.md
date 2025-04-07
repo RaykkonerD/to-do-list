@@ -4,7 +4,9 @@ Este é um simples aplicativo de lista de tarefas (ToDo List) desenvolvido utili
 
 ## Aparência
 
-<img src="assets/screenshot.jpeg" width="50%"/>
+<div align="center">
+    <img src="assets/screenshot.jpeg" width="50%"/>
+</div>
 
 ## Funcionalidades
 
@@ -15,7 +17,7 @@ Este é um simples aplicativo de lista de tarefas (ToDo List) desenvolvido utili
 
 ## Ferramentas e Tecnologias
 
-<img src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" width="120px" />
+<img src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" width="120px"/>
 
 - React Native
 - Hooks (useState)
