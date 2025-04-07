@@ -2,6 +2,10 @@
 
 Este é um simples aplicativo de lista de tarefas (ToDo List) desenvolvido utilizando **React Native**. O aplicativo permite adicionar, editar e excluir tarefas. Ele também oferece uma limitação de caracteres na entrada de texto, com um aviso quando o número máximo de caracteres é atingido.
 
+## Aparência
+
+<img src="assets/screenshot.jpeg" width="50%"/>
+
 ## Funcionalidades
 
 - **Adicionar tarefas**: Insira tarefas na lista com um limite de até 100 caracteres.
@@ -10,6 +14,8 @@ Este é um simples aplicativo de lista de tarefas (ToDo List) desenvolvido utili
 - **Limitação de caracteres**: O campo de entrada exibe uma mensagem de alerta quando o número máximo de caracteres (100) é atingido.
 
 ## Ferramentas e Tecnologias
+
+<img src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" width="120px" />
 
 - React Native
 - Hooks (useState)
