@@ -17,11 +17,10 @@ Este é um simples aplicativo de lista de tarefas (ToDo List) desenvolvido utili
 
 ## Ferramentas e Tecnologias
 
-<img src="https://devtop.io/wp-content/uploads/2022/10/react-native-1.png" width="120px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="100px"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="100px" />
 
 - React Native
-- Hooks (useState)
-- FlatList (para renderizar a lista de tarefas)
+- TypeScript
 
 ## Instalação
 
